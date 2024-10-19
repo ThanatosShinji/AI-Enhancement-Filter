@@ -37,7 +37,7 @@ Intel Arc750 大概每秒9帧
 `.\previewer.exe E001.mp4`
 
 <p id="ui" align="center">
-  <img src="data/ui.png">
+  <img src="data/UI.png">
 </p>
 
 `'q'退出界面`  
