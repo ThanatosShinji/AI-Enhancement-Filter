@@ -1,6 +1,6 @@
 # AITranscoder
 
-高保真的AI视频转码工具
+高保真的实时AI视频转码工具
 <p id="icon" align="center">
   <img src="data/img.png">
 </p>
@@ -13,6 +13,10 @@
 <p id="high_quality" align="center">
   <img src="data/high.png">
 </p>
+适用不同场景
+<p id="comic" align="center">
+  <img src="data/comic.png">
+</p>
 
 
 ## 安装与系统要求
@@ -23,9 +27,11 @@ CPU：Intel CPU
 GPU：Intel集成显卡和独立显卡  
 内存：16GB
 
-360P -> 720P  
-Intel Arc750 大概每秒9帧(受OpenVINO限制，预计80帧/秒，可以实时渲染)  
-笔记本 Ultra-155H 大概能跑每秒2帧
+设计性能：任何AIPC笔记本可以实时渲染1080P输出  
+
+实测(受OpenVINO性能限制)：360P -> 720P  
+Intel Arc750 大概每秒10帧(预计80帧/秒)  
+笔记本 Ultra-155H 大概每秒2帧
 
 ## 使用说明
 
@@ -37,13 +43,13 @@ Intel Arc750 大概每秒9帧(受OpenVINO限制，预计80帧/秒，可以实时
 打开视频  
 `.\previewer.exe E001.mp4`
 
-<p id="ui" align="center">
-  <img src="data/UI.png">
-</p>
-
 `'q'退出界面`  
 `'s'保存当前的AI预览图`  
 
+
+<p id="ui" align="center">
+  <img src="data/UI.png">
+</p>
 通过TimeLine选择视频进度条， 通过Q调节保真度。 不同的保真度将对AI模型效果产生影响。  
 调试好保真度后记录下当前Q的数值，这个转码时候需要使用。
 
