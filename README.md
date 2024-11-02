@@ -1,6 +1,11 @@
-# AITranscoder
+# AI Augment Filter
 
-高保真的实时AI视频转码工具
+**高保真的AI画质增强滤镜:**
+* *预览：图片视频预览保存*
+* *转码：增强画质和码率后重新编码保存*
+* *播放：VLC播放器实时播放*
+
+## 效果对比
 <p id="icon" align="center">
   <img src="data/img.png">
 </p>
@@ -78,3 +83,6 @@ Optional arguments:
 `--in_scale 预先缩放输入图片`  
 `--out_scale 缩放编码前的图片`  
 
+### VLC 播放器插件
+
+开发中
