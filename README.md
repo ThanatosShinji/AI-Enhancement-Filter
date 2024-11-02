@@ -24,14 +24,14 @@
 
 系统：Windows11  
 CPU：Intel CPU  
-GPU：Intel集成显卡和独立显卡  
+GPU：Intel集成显卡或独立显卡  
 内存：16GB
 
-设计性能：任何AIPC笔记本可以实时渲染1080P输出  
+实时播放算力最低要求：30TOPs(1080P) 15TOPs(720P)
 
-实测(受OpenVINO性能限制)：360P -> 720P  
-Intel Arc750 大概每秒10帧(预计80帧/秒)  
-笔记本 Ultra-155H 大概每秒2帧
+实测性能 360P -> 720P  
+Intel Arc750 fp16 50帧/秒 
+笔记本 Ultra-155H fp16 9帧/秒
 
 ## 使用说明
 
