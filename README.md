@@ -1,4 +1,4 @@
-# AI Augment Filter
+# AI Enhancement Filter [English](README_en.md)
 
 **高保真的AI画质增强滤镜:**
 * *[播放](#实时播放服务)*
