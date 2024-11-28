@@ -99,6 +99,9 @@ Optional arguments:
 系统：Windows11  
 内存：16GB
 
+Intel: oneAPI 2024.2 (newest driver)
+Nvidia: CUDA toolkit 12.6 (GPU driver>=528.33)
+
 GPU最低要求：  
 720P播放：Ultra-1系列集成显卡  
 1080P~1440P播放：Ultra-2系列集成显卡, Intel-ArcA750, GTX3060

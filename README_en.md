@@ -102,6 +102,9 @@ and download the transcoding package `win_amd64_transcode.7z` according to your 
 System: Windows 11  
 Memory: 16GB
 
+Intel: oneAPI 2024.2 (newest driver)
+Nvidia: CUDA toolkit 12.6 (GPU driver>=528.33)
+
 Minimum GPU requirements:  
 720P playback: Ultra-1 series integrated graphics card  
 1080P~1440P playback: Ultra-2 series integrated graphics card, Intel-ArcA750, GTX3060  
